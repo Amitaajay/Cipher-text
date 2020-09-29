@@ -1,11 +1,8 @@
 import sys
 check=sys.version
-flag = 0
 if check.startswith("3"):
     value=int(input("Enter the offset: \n"))
     emsg=input("Enter the encoded message: \n")
-    flag = 1
-    
 else: 
     value=int(raw_input("Enter the offset: \n"))
     emsg=raw_input("Enter the encoded message: \n")
