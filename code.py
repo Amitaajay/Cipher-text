@@ -10,5 +10,7 @@ for c in emsg:
         n= ord(c) - 97
         text = chr(((n - value) % 26) + 97)
         omsg = omsg + text
+    else:
+        omsg = omsg + c
         
-print("Original Message:",omsg)
+print("Original Message: ",omsg)
